@@ -1,0 +1,83 @@
+body
+{
+	width: 100%;
+	height: 100%;
+}
+div
+{
+	margin-left:0%; 
+}
+input
+{
+	 margin-left:2%; 
+}
+#first_window
+{
+	background-image:linear-gradient(
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+        ),url(images/main_f.jpg);
+	background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.nav_button
+{
+border-color: none; background-color: Transparent;
+            background-repeat:no-repeat;
+            border: none;
+            cursor:pointer;
+            overflow: hidden;
+            color: white;
+            outline:none;
+            float: right;
+}
+
+#logo
+{
+	font-size: 8vw;
+	color:white;
+	font-family: "Bodoni MT";
+	text-shadow: 1px 1px 2px black, 0 0 1em grey;
+}
+
+#second_window
+{width: 100%;
+	background-color: white;
+	vertical-align: top;
+}
+
+#main_cont
+{width: 100%;
+background-image: url(images/main_s.jpg);
+	background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    margin: -5% 0 0 0; 
+    height: 100%;
+    padding: 13% 5% 5% 5%;
+    	text-shadow: 1px 1px 2px black, 0 0 1em white;
+}
+
+.c_text
+{
+margin: 3% 0 3% 0;
+
+}
+
+#third_window
+{
+	background-image:linear-gradient(
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+        ),url(images/main_t.jpg);
+	background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+height: 750px;
+}
+
+#t_head
+{
+	color: white;
+}
