@@ -56,7 +56,6 @@ background-image: url(images/main_s.jpg);
     margin: -5% 0 0 0; 
     height: 100%;
     padding: 13% 5% 5% 5%;
-    	text-shadow: 1px 1px 2px black, 0 0 1em white;
 }
 
 .c_text
@@ -81,3 +80,41 @@ height: 750px;
 {
 	color: white;
 }
+ #window_r {
+            width: 350px;
+            height: 530px;
+            margin: 40px auto;
+            background: #fff;
+            border: 1px solid #fff;
+            border-radius: 15px;
+            z-index: 150; display: none;
+             position: fixed; left: 0;right: 0;top:0;bottom: 0;
+        } 
+ #window_a {
+            width: 350px;
+            height: 530px;
+            margin: 40px auto;
+            background: #fff;
+            border: 1px solid #fff;
+            border-radius: 15px;
+            z-index: 150; display: none;
+             position: fixed; left: 0;right: 0;top:0;bottom: 0;
+        } 
+.form{
+	width: 275px;
+margin: -15px auto 20px auto;
+text-align: center;
+          } 
+
+#gray{opacity: 0.8;
+ padding: 15px;
+background-color: rgba(1,1,1,0.75);
+ position: fixed;
+  left: 0;
+  right: 0;
+  top:0;
+  bottom: 0;
+   display: none;
+    z-index:100; 
+    overflow: auto; } 
+
