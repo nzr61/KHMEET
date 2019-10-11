@@ -27,4 +27,13 @@ $("#aut").click(function()
 	);
 $("#sab2").click(function()
 {location.href='index_aut.html';
-	})
+	});
+
+$("#sab1").click(function()
+	{
+		var p1=document.getElementByName('pass1').value();
+		var p2 = document.getElementByName('pass2').value();
+		alert(p1,p2);
+	}
+);
+

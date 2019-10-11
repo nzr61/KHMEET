@@ -9,7 +9,21 @@ $(".nav_button").mouseout(function()
 	$(this).css({"background-color":"Transparent","color":"white"});
 }
 	);
-/*
-	saveUser(login:Login,email:Email,password: Password,r_password: R_Password)
-	{}*/
+
+$("#post1").click(function()
+{
+location.href="v_post_1.html";
+}
+	)
+$("#post2").click(function()
+{
+location.href="v_post_2.html";
+}
+	)
+$("#post3").click(function()
+{
+location.href="v_post_3.html";
+}
+	)
+
 
